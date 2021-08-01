@@ -1,0 +1,12 @@
+.video{
+    width: 100%;
+    height: 100%;
+   /* scroll-snap-start:start; */
+    position: relative;
+
+}
+.videoCard__Player{
+    object-fit: fill;
+   width: 100%;
+   height: 100%; 
+}
