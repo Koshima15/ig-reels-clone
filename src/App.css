@@ -19,15 +19,14 @@ html{
   height: 65vh;
   background-color: white;
   width: 60%;
+  height: 500px;
   border-radius: 20px;
   max-width: 450px;
   max-height: 1500px;
   overflow: scroll;
   scroll-snap-type: y mandatory;
 }
-.app__top{
-  margin-top: -120px;
-}
+
 /* hide scrollbar for chrome , safari, opera */
 .app__videos::-webkit-scrollbar{
   display: none;

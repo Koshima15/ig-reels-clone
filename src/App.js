@@ -5,7 +5,7 @@ import VideoCard from './VideoCard';
 function App() {
   return (
     <div className="App">
-      <h1>heyyy ig reels clone</h1>
+      {/* <h1>heyyy ig reels clone</h1> */}
       <div className="app__top">
           {/* iamge at top- logo */}
           <img
@@ -18,9 +18,30 @@ function App() {
       </div>
       <div className="app__videos">
           {/* container of app__videos{scrollable container} */}
-          <VideoCard/> 
-          <VideoCard/> 
-          <VideoCard/> 
+          <VideoCard 
+            channel={'Clever Programming'}
+            avatarSrc={'https://firebasestorage.googleapis.com/v0/b/ig-reels-clone-4ffba.appspot.com/o/avatar.jpg?alt=media&token=3178832a-3fec-443d-8d7b-164cf5361b19'}
+            song={'Test song -sssangha'}
+            url={'https://firebasestorage.googleapis.com/v0/b/ig-reels-clone-4ffba.appspot.com/o/vv.mp4?alt=media&token=eef35677-2a30-48b2-a3c3-5a718e5d544a'}
+            likes={930}
+            shares={50}
+          /> 
+          {/* <VideoCard
+            channel={'Clever Programming'}
+            avatarSrc={'https://firebasestorage.googleapis.com/v0/b/ig-reels-clone-4ffba.appspot.com/o/avatar.jpg?alt=media&token=3178832a-3fec-443d-8d7b-164cf5361b19'}
+            song={'Test song -sssangha'}
+            url={'https://firebasestorage.googleapis.com/v0/b/ig-reels-clone-4ffba.appspot.com/o/vv.mp4?alt=media&token=eef35677-2a30-48b2-a3c3-5a718e5d544a'}
+            likes={1000}
+            shares={30}
+          />  */}
+          <VideoCard
+            channel={'Travel'}
+            avatarSrc={'https://firebasestorage.googleapis.com/v0/b/ig-reels-clone-4ffba.appspot.com/o/avatar.jpg?alt=media&token=3178832a-3fec-443d-8d7b-164cf5361b19'}
+            song={'Test song -sssangha'}
+            url={'https://firebasestorage.googleapis.com/v0/b/ig-reels-clone-4ffba.appspot.com/o/222504190_547603956367836_2461329622542790405_n.mp4?alt=media&token=9f5cfa7f-4550-4ea2-9b87-bb01f611a15e'}
+            likes={500}
+            shares={60}
+          /> 
           {/* videos */}
           {/* videos */}
           {/* videos */}

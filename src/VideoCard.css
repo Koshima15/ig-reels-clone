@@ -1,7 +1,8 @@
 .video{
     width: 100%;
     height: 100%;
-   /* scroll-snap-start:start; */
+   scroll-snap-start:start;
+   border: 1px solid black;
     position: relative;
 
 }
